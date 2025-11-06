@@ -24,7 +24,7 @@ int main() {
         int counter = 0;
         while (1) {
             printf("Parent Process (PID=%d) Counter: %d\n", getpid(), counter++);
-            usleep(700000);   
+            usleep(500000);   
         }
     }
 
